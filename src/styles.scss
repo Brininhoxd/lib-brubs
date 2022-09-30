@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary: #00cba9;
+$secondary: #275dad;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+);
+
+.dedicatoria-licensa {
+    font-size: 10px;
+    font-style: italic;
+    float: right
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
