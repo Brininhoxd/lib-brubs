@@ -1,0 +1,21 @@
+<div class="btn-group">
+    <div class="btn btn-outline-primary" *ngFor="let item of radioItems; let i = index">
+        <input type="radio" data-ng-model="selection2" name="options" [value]="i" />
+        <label>{{item.text}}</label>
+    </div>
+</div>
+
+<!-- <div class="btn-group">
+    <div class="btn btn-outline-primary">
+        <input type="radio" name="options" value="option1" />
+        <label>Option 1</label>
+    </div>
+    <div class="btn btn-outline-primary">
+        <input type="radio" name="options" value="option2" />
+        <label>Option 2</label>
+    </div>
+    <div class="btn btn-outline-primary">
+        <input type="radio" name="options" value="option3" />
+        <label>Option 3</label>
+    </div>
+</div> -->

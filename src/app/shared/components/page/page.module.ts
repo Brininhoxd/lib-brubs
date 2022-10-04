@@ -12,7 +12,7 @@ import { HeaderModule } from '../header/header.module';
   ],
   imports: [
     CommonModule,
-    HeaderModule
+    HeaderModule,
   ],
   exports: [
     PageComponent

@@ -1,0 +1,12 @@
+ a {
+     font-size: 1.5rem;
+     text-decoration: none;
+     display: block;
+     padding: 2% 1%;
+     transition: 0.5s;
+
+     &:hover {
+         background-color: #eeeeee;
+         border-radius: 4px;
+     }
+ }

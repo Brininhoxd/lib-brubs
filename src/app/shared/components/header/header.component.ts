@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
+import { EnumIcons } from '../../helpers/types'
+
 @Component({
   selector: 'brubs-header',
   templateUrl: './header.component.html',
@@ -7,6 +9,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent implements OnInit {
+
+  icon = EnumIcons
 
   constructor() { }
 

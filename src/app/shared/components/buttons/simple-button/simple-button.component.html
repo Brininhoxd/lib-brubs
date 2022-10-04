@@ -1,1 +1,3 @@
-<button type="button" [ngClass]="tipo" class="btn"> {{ text }} </button>
+<div [ngClass]="{'d-grid' : fullWidth}" class="container button-content">
+    <button type="button" [disabled]="disabled" (click)="onBrubsClick($event)" [ngClass]="color" class="btn"> {{ text }} </button>
+</div>

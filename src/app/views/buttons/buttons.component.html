@@ -1,1 +1,17 @@
-<brubs-simple-button text="TESTE"></brubs-simple-button>
+<brubs-page>
+    <div class="row">
+        <div class="col-4">
+            <brubs-simple-button text="TESTE" color="btn-primary" [fullWidth]="true" (brubsClick)="showAlert()"></brubs-simple-button>
+        </div>
+        <div class="col-4">
+            <brubs-simple-button text="TESTE 2" color="btn-secondary" [fullWidth]="true" [disabled]="true">
+            </brubs-simple-button>
+        </div>
+        <div class="col-4">
+            <brubs-simple-button text="TESTE 3" color="btn-danger" [fullWidth]="true"></brubs-simple-button>
+        </div>
+    </div>
+    <!-- TODO <div class="d-flex justify-content-center align-items-center">
+        <brubs-radio-button [radioItems]="radioItems"></brubs-radio-button>
+    </div> -->
+</brubs-page>

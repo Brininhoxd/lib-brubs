@@ -4,7 +4,8 @@ import { HomeComponent } from './views/home/home.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 
 export function loadViews() {
-  return import('./views/views.module').then(m => m.ViewsModule)
+  const children = import('./views/views.module').then(m => m.ViewsModule)
+  return children
 }
 
 const routes: Routes = [
